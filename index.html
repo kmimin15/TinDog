@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/solution.css">
+</head>
+
+<body>
+
+  <!-- Title -->
+  <section id="title">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/fire.svg" alt="Tinder Doggy Icon" width="30" height="24" class="d-inline-block align-text-top"> TinderDoggy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Premium Features</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Suscription Tiers</a></li>
+                <li><a class="dropdown-item" href="#"> • Tinder Doggy Plus®</a></li>
+                <li><a class="dropdown-item" href="#"> • Tinder Doggy Gold™</a></li>
+                <li><a class="dropdown-item" href="#"> • Tinder Doggy Platinum™</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Tinder Doggy SELECT™</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Learn</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Safety
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Community Guidelines</a></li>
+                <li><a class="dropdown-item" href="#">Safety Tips</a></li>
+                <li><a class="dropdown-item" href="#">Safety & Policy</a></li>
+                <li><a class="dropdown-item" href="#">Safety & Reporting</a></li>
+                <li><a class="dropdown-item" href="#">Security</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Download</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gift Cards
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Purchase Gift Card</a></li>
+                <li><a class="dropdown-item" href="#">Redeem Gift Card</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-light"><img src="./images/translate.svg" > Language</button>
+          <button class="btn btn-outline-success" type="submit"> Sing In</button>
+        </div>
+      </div>
+    </nav>
+  </section>
+</hr>
+  <section id="captionletter" class="gradient-background">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold">Swipe Right</h1>
+        <h3 class="fw-normal text-muted mb-3">Find any dog near you</h3>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+          <button type="button" class="btn btn-secondary">Sing In</button>
+        </div>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+  </section>
+</hr>
+  <!-- Features -->
+  <section id="features" class="gradient-background">
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Premium Features</h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/heart-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Unlimited Likes</h3>
+            <p>Likes without limits.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/eye-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap"></use>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">See Who Likes You</h3>
+            <p>Likes will be showed to you.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/star-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap"></use>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Priority Likes</h3>
+            <p>Your Likes will be seen sooner with Priority Likes.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/rewind-circle-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Unlimited Rewinds</h3>
+            <p>You missed a match, no problem just Rewind it.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/lightning-charge-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">1 Free Boost per month</h3>
+            <p>Boost your profile to be in every dogs phone.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/star-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">5 Free Super Likes per week</h3>
+            <p>Show yourself immediately to someone with your Super Like.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/chat-dots-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Message Before Matching</h3>
+            <p>Add a note to your Super Likes.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./sgv/passport-fill.svg" class="bi text-body-secondary flex-shrink-0 me-3" height="20"><use xlink:href="#bootstrap">
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Passport</h3>
+            <p>See the profiles of every dog in the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" class="bd-placeholder-img card-img-top" height="350" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">"Sniffing out love on HowlHub! Just had a moonlit playdate with a charming Border Collie. We're a match made in doggy heaven! I no longer have to sniff other dogs for love. I've found the hottest Corgi on Tinder Doggy. Woof." </br>
+                  Pebbles, New York.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View more</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add Comment</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/1655430860853.jpeg" class="bd-placeholder-img card-img-top" height="300" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">"Barking up the right tree on FetchLove! Just met a Dachshund with a heart as long as his body. Puppy romance at its finest! Forget the dog park drama! Thanks to Tinder Doggy, I've connected with the most charming Husky in my neighborhood. Puppy love is just a click away! Just matched with the sweetest Beagle. Life is paw-some" </br>
+                  Luna, Chicago.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View more</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add Comment</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/dog-img.jpg" class="bd-placeholder-img card-img-top height="350" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">"Snout to snout meetings are so last year. Thanks to BarkBuddies, I've met the fluffiest Golden Retriever."</br>
+                  Bella, Miami.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View more</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add Comment</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h2 class="display-4 fw-normal">A Plan for Every Dog's Needs</h2>
+        <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.
+      </p></div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Tinder Doggy Plus®</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Tinder Doggy Gold™</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-dark">
+            <div class="card-header py-3 text-bg-dark border-dark">
+              <h4 class="my-0 fw-normal">Tinder Doggy Platinum™</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Pirority Listing</li>
+                <li>Unlimited Matches &amp; Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="gradient-background">
+    <div class="container ">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+        <div class="col mb-3">
+
+          <p class="text-body-secondary">© Tindog</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
